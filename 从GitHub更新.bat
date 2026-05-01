@@ -8,7 +8,8 @@ echo ================================
 echo.
 
 echo 正在拉取...
-git pull
+git fetch --all
+git reset --hard origin/main
 
 echo.
 echo ================================
